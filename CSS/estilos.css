@@ -1,58 +1,60 @@
+body{
+    background-image: url("..\CSS\beige-aged-background.jpg") #0000;
+}
+
 .contenedor{
     display: flex;
     justify-content: end;
-}
+    }
 
 .imagen-1{
     width: 150px;
     height: 150px;
-}
+    }
 
 
 .title{
     color:brown;
     margin-left:0px;
     width: 100%;
-    background: #ffc554;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
     }
+
+.encabezado{
+        padding: 0px;
+        width:1310px;
+        height: 100 px;
+        text-align: justify;
+    }
+    
 
 .nombre{
     color: black;
     font-weight: bold;
     font-family: 'Source Serif Pro', serif;
 
-}
+    }
 
 .titulos{
-    color: blue;
+    color: brown;
     width: 60%;
     margin-left: 1px;
     margin-right: 1px;
-    border: 2px solid blueviolet;
-    background-color: burlywood;
+    font-family: 'Roboto Slab', serif;
 }
 
-.textos{  
-color: black;
+.lista{  
+    color: black;
     width: 60%;
     margin-left: 1px;
-    border: 4px solid rgb(250, 10, 10);
-    background-color: aqua;
-    font-family: 'Rowdies', cursive;
+    font-family: 'Comic Neue', cursive;
 }
 
-.body{
-border: 5px solid rgb(34, 228, 43);
-padding: 5px;
-width:1310px;
-height: 100 px;
-text-align: justify;
-background-color: beige;
-}
 
 .lineas{
-    color: red
+    color: blue        
+      
 }
 
 
