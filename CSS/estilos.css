@@ -1,5 +1,7 @@
 body{
-    background-image: url("..\CSS\beige-aged-background.jpg") #0000;
+    background-image: url("beige-aged-background.jpg"); color: black;
+    background-repeat: no-repeat;
+    
 }
 
 .contenedor{
@@ -56,6 +58,5 @@ body{
     color: blue        
       
 }
-
 
 
