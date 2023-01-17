@@ -21,6 +21,7 @@ body{
     width: 100%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
+   
     }
 
 .encabezado{
@@ -44,6 +45,9 @@ body{
     margin-left: 1px;
     margin-right: 1px;
     font-family: 'Roboto Slab', serif;
+    position: relative;
+    left: 250px;
+    right: 40px
 }
 
 .lista{  
@@ -51,6 +55,9 @@ body{
     width: 60%;
     margin-left: 1px;
     font-family: 'Comic Neue', cursive;
+    position: relative;
+    left: 100px;
+    right: 40px;
 }
 
 
@@ -59,4 +66,23 @@ body{
       
 }
 
+.boton_estilo{
+    display: flex;
+    margin-left: 600px;
+    padding: 10px;
+    border: 0;
+    background-color: aqua;
+    justify-content: right;
+    color: black;
 
+}
+
+
+.boton_mostrar{
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    padding: 10px;
+    color: blanchedalmond;
+
+}
