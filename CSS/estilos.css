@@ -1,61 +1,68 @@
+/* FONDO */
 body{
-    background-image: url("beige-aged-background.jpg"); color: black;
+    background-image: url("beige-aged-background.jpg");
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+/*ENCABEZADO*/
 .contenedor{
-    display: flex;
-    justify-content: end;
-    }
+    display:flex;
+    width: 100%;
+    margin:0%;
+    border: 0%;
+}
 
 .imagen-1{
     width: 150px;
     height: 150px;
     position: relative;
     margin-left: 100px;
-    }
+    border-radius: 100px;
+    border: ridge;
+}
 
+.encabezado{
+    background-color: rgb(255, 235, 205, 40%);
+    background-size: cover;
+    padding: 1%;
+    margin: 0%;
+    border: 0%;
+}
 
 .title{
     color:brown;
-    margin-left:0px;
     width: 100%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
-   
-    }
+}
 
-.encabezado{
-        background-color: rgba(255, 228, 196, 40%);
-        background-attachment: fixed;
-        background-size: 100% 100%;
-        padding: 1%;
-        border-left: 0%;
-        border-right: 0%;
-        border-top: 0%;
-        width:1310px;
-        text-align: center;
-    }
-    
 
 .nombre{
     color: black;
     font-weight: bold;
     font-family: 'Source Serif Pro', serif;
+}
 
-    }
+
+/*CUERPO */
 
 .titulos{
     color: brown;
-    width: 60%;
+    width: 100%;
     margin-left: 1px;
     margin-right: 1px;
     font-family: 'Roboto Slab', serif;
-    position: relative;
-    left: 250px;
-    right: 40px
+    text-align: center;
 }
+
+
+.lineas{
+    color: blue; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
 
 .lista{  
     border: 0px;
@@ -69,19 +76,13 @@ body{
 }
 
 
-.lineas{
-    color: blue; 
-    font-family: Arial, Helvetica, sans-serif;
 
-      
-}
-
+/* FORMATO BOTONES*/
 .contenedor_boton{
     display: flex;
     justify-content: center;
     padding: 0px;
     margin-block-end: 1%;
-
 }
 
 
@@ -113,3 +114,21 @@ body{
     background-color: antiquewhite;
     justify-content: right;
   }
+
+
+/* PIE DE PAGINA*/
+
+.pie_de_pagina{
+    background-color: rgb(255, 235, 205,40%);
+    background-size: cover;
+    padding: 1%;
+    margin: 0%;
+    border: 0%;   
+}
+
+.derechos{
+    position:relative;
+    text-align: center;
+    padding: 15px;
+    font-family: Verdana;
+}

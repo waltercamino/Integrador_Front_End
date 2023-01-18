@@ -14,7 +14,7 @@ document.getElementById("ocultar_formacion").addEventListener("click", function 
 })
 
 
-document.getElementById("mostrar_adicional").addEventListener("click", function (){
+document.getElementById("mostrar_formacion").addEventListener("click", function (){
     document.getElementById("formacion").style.display= "block"
 })
 
